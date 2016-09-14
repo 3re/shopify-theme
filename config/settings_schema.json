@@ -5,11 +5,11 @@
     "settings": [
       {
         "type": "header",
-        "content": "Timber Framework"
+        "content": "HTML Labs Shopify theme"
       },
       {
         "type": "paragraph",
-        "content": "v2.1.0"
+        "content": "v1.0"
       },
       {
         "type": "paragraph",
@@ -125,21 +125,30 @@
         "label": "Use custom icon"
       },
       {
-        "type": "header",
-        "content": "Index"
-      },
-      {
-        "type": "checkbox",
-        "id": "index_enable",
-        "label": "Ask search engines not to index website"
-      },
-      {
         "type": "image",
         "id": "favicon.png",
         "label": "Icon",
         "max-width": 32,
         "max-height": 32,
         "info": "32 x 32px .png required"
+      },
+      {
+        "type": "header",
+        "content": "Index"
+      },
+      {
+        "type": "checkbox",
+        "id": "index_enable",
+        "label": "Ask search engines not to index website.  Should only be used while in development."
+      },
+      {
+        "type": "header",
+        "content": "Search Bar"
+      },
+      {
+        "type": "checkbox",
+        "id": "search_enable",
+        "label": "Enable search bar in header."
       }
     ]
   },
